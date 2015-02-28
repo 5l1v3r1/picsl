@@ -7,7 +7,7 @@
 		
 	}
 
-	#upload {
+	#update {
 		width: 200px;
 		height: 200px;
 		padding-top: 200px;
@@ -26,15 +26,59 @@
 	margin-right: auto;
 }
 
-#upload {
-	display: block;
-	width: 300px;
-	height: 300px;
+#update {
+	display:block;
+	width:300px;
+	height:300px;
+	padding-top:100px;
 	margin-right: auto;
 	margin-left: auto;
-	padding-top: 100px;
 }
+
+#button {
+	width:300px;
+	height:300px;
 }
+
+#about a {
+	text-decoration: none;
+	color:060606;
+	 
+}
+#about a:link {
+    color: #060606;
+}
+
+/* visited link */
+#about a:visited {
+    color: #060606;
+}
+
+/* mouse over link */
+#about a:hover {
+    color: #767272;
+}
+
+/* selected link */
+#about a:active {
+    color: #767272;
+}
+
+#about a {
+	text-decoration: none;
+	 
+}
+
+#about {
+	display:inline;
+	font-family: "Gujarati Sangam MN", "Times New Roman", "sans-serif";
+	font-size: 14px;
+	padding-top: 50px;
+	margin-right: auto;
+	
+
+}
+
 
 
 
