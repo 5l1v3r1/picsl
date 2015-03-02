@@ -83,7 +83,7 @@ def main(argv):
     rgb_vals = get_block_colors(blockmap, pixels)
 
     # pair with blockmap indices
-    pairs = zip(rgb_vals, range(len(blockmap)))
+    pairs = zip(rgb_vals, xrange(len(blockmap)))
 
     pairs = sort_by(pairs, "red")
     chunks = chunk(pairs, yblock)
